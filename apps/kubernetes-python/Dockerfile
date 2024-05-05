@@ -4,6 +4,9 @@ ARG TARGETPLATFORM
 ARG VERSION
 ARG CHANNEL
 
+RUN apk add --update-cache \
+    git \
+  && rm -rf /var/cache/apk/*
 RUN pip install git+https://github.com/kubernetes-client/python.git
 RUN pip install requests
 

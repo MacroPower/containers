@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir \
 
 COPY ./apps/kubernetes-python/entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["/bin/bash", "--"]
+ENTRYPOINT ["/bin/sh", "--"]
 CMD ["/entrypoint.sh"]

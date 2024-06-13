@@ -31,3 +31,4 @@ Container | Channel | Image
 --- | --- | ---
 [defectdojo-k8s-py](https://github.com/MacroPower/containers/pkgs/container/defectdojo-k8s-py) | stable | ghcr.io/MacroPower/defectdojo-k8s-py
 [kubernetes-python](https://github.com/MacroPower/containers/pkgs/container/kubernetes-python) | stable | ghcr.io/MacroPower/kubernetes-python
+[ldap-debug](https://github.com/MacroPower/containers/pkgs/container/ldap-debug) | stable | ghcr.io/MacroPower/ldap-debug
